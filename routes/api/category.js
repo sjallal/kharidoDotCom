@@ -18,8 +18,6 @@ const { getUserById } = require('../../controllers/user');
 router.param('userId', getUserById);
 router.param('categoryId', getCategoryById);
 
-//actual routers goes here
-
 //create
 router.post('/create/:userId', isAdmin, createCategory);
 
