@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 //My routes
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/category', require('./routes/api/category'));
-// app.use('/api/product', require('./routes/api/product'));
+app.use('/api/product', require('./routes/api/product'));
 app.use('/api/user', require('./routes/api/user'));
 
 //Starting a server
