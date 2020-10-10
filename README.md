@@ -1,3 +1,3 @@
 # kharidoDotCom
-An e-commerce Website build using MERN Stack.
+An e-commerce Website built using MERN Stack.
 
